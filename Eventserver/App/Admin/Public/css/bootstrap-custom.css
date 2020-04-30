@@ -1,0 +1,41 @@
+body{
+    margin-top:50px;
+    padding:0px 20px;
+}
+.pagination .current a{
+    background-color:#afafaf;
+    color:#afafaf;
+}
+.pagination ul {
+    float: right;
+    margin-left: 10px;
+}
+.num_range_field{
+    width:60px!important; height:15px!important;font-size:12px!important;
+}
+
+.tube-status-current-jobs-reserved, .tube-status-current-jobs-reserved:hover{
+    background-color: #ffffbb!important; color: #00006f;
+}
+.tube-status-current-jobs-ready, .tube-status-current-jobs-ready:hover{
+    background-color: #99cc00!important; color: #ffffff;
+}
+.tube-status-current-jobs-delayed, .tube-status-current-jobs-delayed:hover{
+    background-color: #eeeeff!important; color: #333f5f;
+}
+
+.footer-container{
+
+}
+.table-bordered{
+    border-top-width: 1px;
+}
+.overflow-scroll-y{
+    max-height: 420px;
+    overflow-y: auto;
+    -ms-overflow-ys: auto;
+}
+.disabled{
+    cursor: not-allowed;
+    background-color: #eeeeee;
+}

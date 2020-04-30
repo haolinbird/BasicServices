@@ -1,0 +1,27 @@
+{
+    "name": "EventServer",
+    "description": "消息/事件中心管理后台及消息接收网关.",
+    "type": "application",
+    "config": {
+        "vendor-dir": "Vendor",
+        "secure-http": false
+    },
+    "repositories": [
+      {
+        "packagist": false
+      },
+      {
+        "type": "composer",
+        "url": "http://packagist.int.codehl.com/"
+      }
+    ],
+    "scripts": {
+        "post-update-cmd": "rm -rf Vendor/composer && rm -rf Vendor/autoload.php",
+        "post-install-cmd": "rm -rf Vendor/composer && rm -rf Vendor/autoload.php"
+    },
+    "require": {
+        "BootStrap": "1.0.1",
+        "MedApi": "0.0.4",
+        "EventClient": "1.0.3-beta1"
+    }
+}
